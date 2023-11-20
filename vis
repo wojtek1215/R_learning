@@ -1,0 +1,5 @@
+# Visualization
+
+print(ggplot(df_geo_filter, aes(x = geo_filter, y = n, fill = geo_filter)) +
+        geom_bar(stat = "identity") +
+        labs(title = "Bar Chart Example", x = "Category", y = "Value"))
